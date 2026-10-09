@@ -1,0 +1,27 @@
+title: Carmine Costoya
+tagline: MBA Candidate at UC Berkeley Haas
+description: Portfolio of Carmine Costoya, an MBA candidate and product, strategy, and innovation leader.
+url: "https://carminecostoya.github.io"
+baseurl: ""
+lang: en-US
+author:
+  name: Carmine Costoya
+  url: "https://github.com/carminecostoya"
+github_username: carminecostoya
+
+permalink: pretty
+markdown: kramdown
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - PLAN.md
+  - Change1.md
+  - Change2.md
+  - vendor
+
