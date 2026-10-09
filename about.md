@@ -9,7 +9,7 @@ description: Learn about Carmine Costoya's background in business, design, produ
 <header class="page-intro shell section-pad">
   <p class="eyebrow">About</p>
   <h1>A creative mindset for consequential business challenges.</h1>
-  <p class="lede">I am an MBA candidate at UC Berkeley Haas, a Chilean and Spanish citizen, and a leader shaped by design, technology, and business.</p>
+  <p class="lede">I am an MBA candidate at UC Berkeley Haas, a Chilean and Spanish citizen, and a cross-functional leader shaped by design, technology, and business.</p>
 </header>
 
 <section class="shell content-section two-column" aria-labelledby="story-title">
@@ -17,6 +17,7 @@ description: Learn about Carmine Costoya's background in business, design, produ
   <div class="prose">
     <p>I am passionate about leadership, business impact, and driving meaningful change. With a background in design and innovation and experience across technology and business, I bring a creative mindset to solving complex challenges and building products that truly improve people's lives.</p>
     <p>I thrive at the intersection of strategy, user experience, and execution—where ideas become coordinated action and real impact. My work has taken me across healthcare, banking, property technology, wellness, and social entrepreneurship.</p>
+    <p>Across those settings, I have built shared frameworks, led multidisciplinary software teams, shaped product strategies, and helped organizations move from ambiguity to decisions they can act on. I am at my best when the challenge requires both analytical structure and empathy for the people a product or system must serve.</p>
   </div>
 </section>
 
@@ -57,4 +58,3 @@ description: Learn about Carmine Costoya's background in business, design, produ
     </div>
   </div>
 </section>
-

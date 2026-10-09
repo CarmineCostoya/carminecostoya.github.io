@@ -244,6 +244,58 @@ h3 {
   font-size: 1.5rem;
 }
 
+.section-heading-row {
+  display: grid;
+  grid-template-columns: minmax(0, 1.2fr) minmax(16rem, 0.8fr);
+  align-items: end;
+  gap: clamp(2rem, 8vw, 7rem);
+  margin-bottom: 2rem;
+}
+
+.section-heading-row h2,
+.section-heading-row p {
+  margin-bottom: 0;
+}
+
+.section-heading-row > p {
+  max-width: 34rem;
+  color: var(--muted);
+  font-size: 1.05rem;
+}
+
+.impact-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  border-block: 1px solid var(--line);
+}
+
+.impact-grid article {
+  padding: 2rem;
+  border-right: 1px solid var(--line);
+}
+
+.impact-grid article:first-child {
+  padding-left: 0;
+}
+
+.impact-grid article:last-child {
+  padding-right: 0;
+  border-right: 0;
+}
+
+.impact-value {
+  margin-bottom: 1rem;
+  color: var(--forest);
+  font-family: var(--serif);
+  font-size: clamp(2.5rem, 5vw, 4.5rem);
+  line-height: 1;
+}
+
+.impact-grid article > p:last-child {
+  margin-bottom: 0;
+  color: var(--muted);
+}
+
 .home-closing p:not(.eyebrow) {
   max-width: 42rem;
   color: var(--muted);
@@ -375,9 +427,31 @@ h3 {
 
   .strength-grid,
   .detail-grid,
+  .section-heading-row,
   .two-column,
   .role {
     grid-template-columns: 1fr;
+  }
+
+  .impact-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .impact-grid article,
+  .impact-grid article:first-child,
+  .impact-grid article:last-child {
+    padding: 1.5rem;
+    border-right: 0;
+    border-bottom: 1px solid var(--line);
+  }
+
+  .impact-grid article:nth-child(odd) {
+    padding-left: 0;
+    border-right: 1px solid var(--line);
+  }
+
+  .impact-grid article:nth-last-child(-n + 2) {
+    border-bottom: 0;
   }
 
   .two-column,
@@ -394,9 +468,27 @@ h3 {
   }
 }
 
+@media (max-width: 30rem) {
+  .impact-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .impact-grid article,
+  .impact-grid article:first-child,
+  .impact-grid article:last-child,
+  .impact-grid article:nth-child(odd) {
+    padding: 1.5rem 0;
+    border-right: 0;
+    border-bottom: 1px solid var(--line);
+  }
+
+  .impact-grid article:last-child {
+    border-bottom: 0;
+  }
+}
+
 @media (prefers-reduced-motion: reduce) {
   html {
     scroll-behavior: auto;
   }
 }
-
