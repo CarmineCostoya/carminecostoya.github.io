@@ -12,9 +12,21 @@ description: Selected work experience across healthcare, banking, property techn
   <p class="lede">My experience spans operations, business architecture, product ownership, agile delivery, and design-led social innovation in the United States and Chile.</p>
 </header>
 
+<nav class="experience-index shell" aria-label="Jump to an organization">
+  <p>Jump to</p>
+  <ul>
+    <li><a href="#misalud">MiSalud Health</a></li>
+    <li><a href="#scotiabank">Scotiabank</a></li>
+    <li><a href="#rentapp">Rentapp</a></li>
+    <li><a href="#betterfly">Betterfly</a></li>
+    <li><a href="#balloon">Balloon Latam</a></li>
+  </ul>
+</nav>
+
 <section class="shell experience-list" aria-label="Professional experience">
-  <article class="role">
+  <article class="role" id="misalud">
     <div class="role-heading">
+      <p class="role-number" aria-hidden="true">01</p>
       <p class="meta">May 2026–August 2026 · San Francisco, United States</p>
       <h2>MiSalud Health</h2>
       <p class="role-title">Operations</p>
@@ -25,8 +37,9 @@ description: Selected work experience across healthcare, banking, property techn
     </div>
   </article>
 
-  <article class="role">
+  <article class="role" id="scotiabank">
     <div class="role-heading">
+      <p class="role-number" aria-hidden="true">02</p>
       <p class="meta">January 2024–May 2025 · Santiago, Chile</p>
       <h2>Scotiabank / Muruna</h2>
       <p class="role-title">Regional Business Architect · Business Architect</p>
@@ -38,8 +51,9 @@ description: Selected work experience across healthcare, banking, property techn
     </div>
   </article>
 
-  <article class="role">
+  <article class="role" id="rentapp">
     <div class="role-heading">
+      <p class="role-number" aria-hidden="true">03</p>
       <p class="meta">May 2023–August 2023 · Santiago, Chile</p>
       <h2>Rentapp</h2>
       <p class="role-title">Product Owner</p>
@@ -50,8 +64,9 @@ description: Selected work experience across healthcare, banking, property techn
     </div>
   </article>
 
-  <article class="role">
+  <article class="role" id="betterfly">
     <div class="role-heading">
+      <p class="role-number" aria-hidden="true">04</p>
       <p class="meta">January 2021–January 2023 · Santiago, Chile</p>
       <h2>Betterfly / Kunder</h2>
       <p class="role-title">Agile Facilitator · Agile Project Manager · Agile Trainee</p>
@@ -62,8 +77,9 @@ description: Selected work experience across healthcare, banking, property techn
     </div>
   </article>
 
-  <article class="role">
+  <article class="role" id="balloon">
     <div class="role-heading">
+      <p class="role-number" aria-hidden="true">05</p>
       <p class="meta">February 2019–January 2021 · Santiago, Chile</p>
       <h2>Balloon Latam</h2>
       <p class="role-title">Design Project Manager</p>
