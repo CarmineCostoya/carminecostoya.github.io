@@ -39,10 +39,37 @@ description: Carmine Costoya is an MBA candidate at UC Berkeley Haas who works a
   </div>
 </section>
 
+<section class="impact-section shell section-pad" aria-labelledby="impact-title">
+  <div class="section-heading-row">
+    <div>
+      <p class="eyebrow">Selected impact</p>
+      <h2 id="impact-title">Progress you can measure</h2>
+    </div>
+    <p>Across banking, property technology, and digital wellness, I have paired systems thinking with practical delivery.</p>
+  </div>
+  <div class="impact-grid">
+    <article>
+      <p class="impact-value">$8.5M</p>
+      <p>in potential savings identified while streamlining vendor solutions across eight International Banking countries.</p>
+    </article>
+    <article>
+      <p class="impact-value">30+</p>
+      <p>professionals trained to use a shared Business Capability Model across technology and business teams.</p>
+    </article>
+    <article>
+      <p class="impact-value">46%</p>
+      <p>reduction in lead time at Rentapp, alongside a 27% reduction in bugs.</p>
+    </article>
+    <article>
+      <p class="impact-value">~20%</p>
+      <p>increase in user engagement after leading a new experience, onboarding, and app rebrand at Betterfly.</p>
+    </article>
+  </div>
+</section>
+
 <section class="shell section-pad home-closing" aria-labelledby="next-title">
   <p class="eyebrow">The next chapter</p>
   <h2 id="next-title">Business leadership, grounded in human-centered design.</h2>
-  <p>At Berkeley Haas, I am deepening the strategic and organizational skills that complement my experience leading product, technology, and innovation work.</p>
+  <p>At Berkeley Haas, I am deepening the strategic and organizational skills that complement my experience leading product, technology, and innovation work across the United States and Latin America.</p>
   <a class="text-link" href="{{ '/contact/' | relative_url }}">Connect on GitHub <span aria-hidden="true">→</span></a>
 </section>
-
